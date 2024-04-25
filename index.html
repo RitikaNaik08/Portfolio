@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59c2942f46.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+             
+                <img src="" class="logo">
+                <ul  id="sidemenu">
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#services"><b>Services</b></a></li>
+                    <li><a href="#portfolio"><b>Portfolio</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>   
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>I am <span>Ritika</span><br>Naik</h1>
+            </div>
+        </div>
+        </div>
+<!--------------------about------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/portimg.png">
+                    </div>
+                    
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p >"I am a highly motivated and dedicated individual with a strong work ethic. I am determined, focused, and confident in my abilities. My expertise lies in the fields of coding and electronics, where I have honed my skills through hands-on experience and continuous learning. I am passionate about tackling complex challenges and consistently strive for excellence in all my endeavors. I am committed to continuous learning and growth, making me a valuable asset to any team or project."</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>HTML,CSS,JS & PHPS</li>
+                                <li><span>Programming language</span><br>C++ & JAVA</li>
+                                <li><span>DBMS</span><br>SQL & MongoDB</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Leadership</span><br>worked as ladies representative (LR) for student council body Exactas of padre conciecao college of engineering.</li>
+                                <li><span>Event Cordinator</span><br>Was coordinator for Electronics arts which is a technical event under the name of techyon of our college.</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - Current</span><br>Padre Conceciao College of Engineering</li>
+                                <li><span>2019 - 2021</span><br>St.Andrew Higher Secondary School</li>
+                                <li><span>2018 - 2019</span><br>Deepvihar High School</li>
+                            </ul>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!--------------------services--------------->   
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Hobbies</h1>
+                <div class="services-list"> 
+                    <div>
+                        <i class="fa-solid fa-music"></i>
+                        <h2>Singing</h2>
+                        <p>Singing is my passion; it fills me with joy and expression. From humming tunes to performing, it's a journey of connection and self-discovery. Through music, I find solace and inspiration, a sanctuary amidst life's chaos. Also participated in various intercollege events and intracollege events. </p>
+                        <a href="#"></a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-snowflake"></i>
+                        <h2>Dancing</h2>
+                        <p>Dancing is an expression of joy in every step. With each movement, I find freedom and passion and peace. </p>
+                        <a href="#"></a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-camera"></i>
+                        <h2>Photography</h2>
+                        <p>Photography captures moments, weaving stories with light and shadow. Through the lens, I explore the beauty of the world, freezing time in a single frame. </p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+<!----------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/traffic .jpg">
+                <div class="layer">
+                    <h3>Traffic Control System</h3>
+                    <p>Automatic camera control traffic control system using micro-controllers</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/power supply.jpg">
+                <div class="layer">
+                    <h3>Dual Power Supply</h3>
+                    <p>Dual power supply system using integrated circuits.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ecommerce.jpg">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>E-commerce website using database management system</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ship.png">
+                <div class="layer">
+                    <h3>Ship management website</h3>
+                    <p>Full Ship management website using html,css,js,MySQL and php</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/plant nutrient.jpg">
+                <div class="layer">
+                    <h3>Plant water nutrient system</h3>
+                    <p>Plant water nutrient system using Esp8266 and blynkit app</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ritikanaik2003@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9881500659</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ritika-naik-1645851b2/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/RitikaNaik08"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/RitikaNaik_21EC46.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>created by <span>Ritika</span> | all rights reserved!</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right= "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyKFRRIkGNk19UoFPRdeXDJelda3Bs6WHK2mHJaZqIKLRBxortJryP7BUZmVAPWDpgDSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
